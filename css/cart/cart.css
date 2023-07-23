@@ -1,0 +1,44 @@
+/*----------------- items recipet --------------------*/
+.item-counter a
+{
+    margin-left: 10px;
+    color: #28a745;
+    margin-right: 10px;
+}
+.item-counter p
+{
+    margin-bottom: 0;
+}
+
+#cuisines > div
+{
+    margin-top: 5px;
+    margin-bottom: 50px;
+    padding-bottom: 10px;
+}
+.food-item-row
+{
+    margin-bottom: 10px;
+}
+#order img
+{
+    width: 80px;
+    height: auto;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+#cart-empty
+{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top:30%;
+    text-align: center;
+    justify-content: center;
+}
+#cart-empty img
+{
+    width:100px;
+    height: 100px;
+}

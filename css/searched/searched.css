@@ -1,0 +1,72 @@
+.nav-login li a
+{
+    letter-spacing: 1.5px;
+}
+.nav-login li a:hover
+{
+    color:#008BDC!important;
+}
+
+
+/* --------------------------- filter --------------------------- */
+.filter-tab-container ul li a
+{
+    color:#7f7f7f;
+    font-weight: bold;
+    margin:5px;
+}
+.filter-tab-container ul .active
+{
+    animation-name: border-bottom ;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+.filter-tab-container ul li a:hover
+{
+    text-decoration: none;
+}
+
+/* -------------------------------- image of cuisines -------------------- */
+#cuisines > div
+{
+    margin-top: 5px;
+    margin-bottom: 50px;
+    padding-bottom: 10px;
+}
+.food-item-row
+{
+    margin-bottom: 10px;
+}
+.add-cuisine-class
+{
+    position: relative;
+}
+#cuisines img
+{
+    width: 80px;
+    height: auto;
+}
+.add-cuisine-class > a
+{
+    padding: 2px 4px;
+    font-weight: bold;
+    position: absolute;
+    bottom: -10px;
+    left: 25%;
+}
+.add-cuisine-class a:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+
+/*--------------------------------- animation -------------------------- */
+@keyframes border-bottom {
+    from 
+    {
+        border-bottom: 4px solid #fff;
+    }
+    to {
+        border-bottom: 4px solid #007bff;
+    }
+}

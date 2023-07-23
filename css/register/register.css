@@ -1,0 +1,41 @@
+.c-register-container , .r-register-container
+{
+    margin-top:5%;
+    margin-bottom:5%;
+}
+
+.c-register-form , .r-register-form 
+{
+    padding: 5%;
+    width: 60%;
+    box-shadow: outset -1px 1px 10px 0px black;
+    background-image: url("../../img/general/registration.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.c-register-form h2 , .r-register-form h2{
+    text-align: center;
+    color: #fff;
+}
+.c-register-container form , .r-register-container form{
+    padding: 10%;
+}
+.btnSubmit
+{
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    color: #0062cc;
+    background-color: #fff;
+}
+
+.r-register-form  #category 
+{
+    height:110px;
+    overflow-y: scroll;
+    background: white;
+}

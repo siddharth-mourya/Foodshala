@@ -1,0 +1,192 @@
+html{
+    scroll-behavior: smooth;
+  }
+.nav-login li a
+{
+    letter-spacing: 1.5px;
+}
+.nav-login li a:hover
+{
+    color:#008BDC!important;
+}
+
+
+/* ------------------------- header ----------------------------- */
+
+.header-front
+{
+    position: relative;
+    width: 100%;
+    height: 95vh;
+}
+.header-bg img
+{
+    position:absolute;
+    width:100%;
+    height:95vh
+}
+
+/* ----------------------------search  --------------------------*/
+.search-bar input:first-child
+{
+    width: 50%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    font-size: 16px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 7px 20px 7px 20px;
+    -webkit-transition:  0.4s ease-in-out;
+    transition:  0.4s ease-in-out;
+}
+.search-bar input:first-child:hover
+{
+    width: 90%;
+}
+/*---------------------------- slider ------------------------------------ */
+.swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+ .swiper-button-next , .swiper-button-prev
+ {
+     position: static !important;
+     width: unset !important;
+     margin-top: auto !important;
+     outline: none;
+ }
+
+ /*--------------------------- category slider -------------------------*/
+ 
+ #category-slider img
+ {
+    width: 100px;
+    height: auto;
+    border-radius:50%;
+ }
+ #category-slider .col
+ {
+    align-items: center;
+    margin-bottom: 15px;
+ }
+
+/*-------------------------------- eat-safe-container ------------------------*/
+#eat-safe-container-fluid
+{
+    background:rgba(0, 0, 0, 0.8);
+    color:white;
+}
+
+
+/*------------------------------- famous restaurant slider conatiner ----------------- */
+#famous-restaurant-slider-container
+{
+    overflow-x: scroll;
+}
+
+/*----------------------------------- footer container fluid -------------------------*/
+#footer-container-fluid
+{
+    background-color: #2e3333;
+}
+#footer-container-fluid .row .column
+{
+    background: #434848;
+    border-radius: 5px;
+}
+#footer-container-fluid .row .column a
+{   
+    color: white!important;
+}   
+#footer-container-fluid .row .column:last-child img
+{
+    width: 200px;
+    height: auto;
+}
+
+
+/* --------------------------  media queries ------------------------- */
+
+@media(max-width: 991px)
+{
+    /* ------------------------- search ----------------------------- */
+    .search-bar input:first-child
+    {
+        width: 50%;
+    }
+    .search-bar input:first-child:hover
+    {
+        width: 80%;
+    }
+}
+
+@media(max-width: 767px)
+{
+    
+/* ------------------------- header ----------------------------- */
+    .header-front
+    {
+        height: 60vh;
+    }
+    .header-bg img
+    {
+        height: 60vh;
+    }
+    
+    /* ------------------------- search ----------------------------- */
+
+    .search-bar input:first-child
+    {
+        width: 60%;
+    }
+    .search-bar input:first-child:hover
+    {
+        width: 80%;
+    }
+      
+}
+
+@media(max-width: 576px)
+{
+    /* ------------------------- header ----------------------------- */
+    .header-front
+    {
+        height: 50vh;
+    }
+    .header-bg img
+    {
+        height: 50vh;
+    }
+    
+    /* ------------------------- search ----------------------------- */
+
+    .search-bar input:first-child
+    {
+        width: 60%;
+    }
+    .search-bar input:first-child:hover
+    {
+        width: 70%;
+    }
+}

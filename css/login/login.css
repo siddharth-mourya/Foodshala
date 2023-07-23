@@ -1,0 +1,53 @@
+.login-container{
+    margin-top: 7%;
+    margin-bottom: 5%;
+}
+.login-form{
+    padding: 5%;
+    width: 60%;
+    background: #0062cc;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+.login-form h2{
+    text-align: center;
+    color: #fff;
+}
+.login-container form{
+    padding: 10%;
+}
+.btnSubmit
+{
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    border: none;
+    cursor: pointer;
+}
+.login-form .btnSubmit{
+    font-weight: 600;
+    color: #0062cc;
+    background-color: #fff;
+}
+
+
+/* only for login page not for registration  */
+
+.tab-pane       
+{
+    box-shadow: outset -1px 1px 10px 0px black;
+    /* background-image: url("../../img/login/masala.jpg"); */
+    background-image: url("https://cdn130.picsart.com/286394316039201.jpg?type=webp&to=min&r=640");
+
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#pills-tabContent div:first-child ul
+{
+    background: #29170c;
+    box-shadow: 0 18px 10px -10px rgb(255, 255, 255);
+}
+#pills-tabContent .nav-item .active
+{
+    border-bottom: 5px solid #0062cc;
+}

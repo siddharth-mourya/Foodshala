@@ -1,0 +1,23 @@
+
+/* ---------------------- scroll bar design ------------------- */
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+    background-color:transparent;
+  }
+  
+  /* Track */
+ ::-webkit-scrollbar-track {
+    background:transparent;
+  }
+   /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #393a3a;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(0, 0, 0); 
+    border-left: 1px dashed white;
+  }
+  
